@@ -1,0 +1,15 @@
+.watermark a {
+    display: none!important;
+}
+.watermark {
+    font-size: small;
+    font-style: italic;
+    margin: 0px 0px;
+}
+.watermark:after {
+    content: "Developed by Grupo AIA";
+}
+span.message-avatar > .MuiAvatar-circular {
+    width: 65px!important;
+    height: 65px!important;
+}
